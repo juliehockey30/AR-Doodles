@@ -1,16 +1,18 @@
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import NavBar from './components/NavBar'
-import Puppies from './components/Puppies'
+import Contact from './components/Contact'
 import Dogs from './components/Dogs'
 import FAQ from './components/FAQ'
-import Contact from './components/Contact'
+import Home from './components/Home'
+import NavBar from './components/NavBar'
+import Pupdate from './components/Pupdate'
+import Puppies from './components/Puppies'
 
 const App = () => {
   return (
     <div className="font-arima">
       <NavBar />
-      <div className="pt-32">
+      <Pupdate />
+      <div className="  pt-52">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/puppies" element={<Puppies />} />
