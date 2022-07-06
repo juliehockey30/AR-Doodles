@@ -19,7 +19,7 @@ const NavBar = () => {
   const currentPathName = location.pathname
 
   return (
-    <div className="bg-lightPurple fixed z-20 h-32 w-full flex justify-center items-center">
+    <div className="bg-lightPurple fixed z-20 h-32 w-full hidden md:flex justify-center items-center">
       <NavLink
         isSelected={currentPathName === '/dogs'}
         text="Our Dogs"

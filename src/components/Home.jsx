@@ -7,7 +7,10 @@ const Home = () => {
         Doodle Puppy Breeder
       </h1>
       <h3 className="text-2xl text-darkPurple font-black">Aurora, CO</h3>
-      <img className="max-w-[50rem] mt-8" src={Doodles} />
+      <img
+        className="md:max-w-[50rem] max-w-sm md:mt-8 mt-36 md:ml-0 ml-2"
+        src={Doodles}
+      />
     </div>
   )
 }

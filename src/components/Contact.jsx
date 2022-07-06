@@ -8,9 +8,9 @@ const InputField = ({ label, name, setShowError, setter }) => {
   }
 
   return (
-    <div className="group relative w-80">
+    <div className="group relative md:w-80 w-60">
       <input
-        className="peer w-full border-t-0 border-x-0 border-b border-b-lightPurple bg-transparent pt-0 pl-0 pb-1 text-base outline-none focus-within:border-darkPurple focus:ring-0"
+        className="mb-12 md:mb-0 peer w-full border-t-0 border-x-0 border-b border-b-lightPurple bg-transparent pt-0 pl-0 pb-1 text-base outline-none focus-within:border-darkPurple focus:ring-0"
         name={name}
         onChange={(e) => handleOnChange(e.currentTarget.value)}
         required
@@ -85,18 +85,18 @@ const Contact = () => {
   }
 
   return (
-    <div className="pb-16">
+    <div className="md:pb-16 pb-32">
       <p className="text-4xl text-darkPurple font-black text-center">
         Contact Us
       </p>
-      <p className="text-2xl text-darkPurple font-black text-center">
+      <p className="text-2xl text-darkPurple font-black text-center px-4">
         To inquire about adopting a puppy or for general questions, please fill
         out the form below.
       </p>
-      <div className="border-2 border-lightPurple max-w-4xl mx-auto mt-12 p-12 flex flex-col">
+      <div className="border-2 border-lightPurple max-w-4xl mt-12 md:p-12 p-8 flex flex-col md:mx-auto mx-4">
         {showForm ? (
           <>
-            <div className="flex mb-10 justify-around">
+            <div className="flex md:mb-10 justify-around flex-col md:flex-row">
               <InputField
                 label="First Name"
                 setShowError={setShowError}
@@ -108,7 +108,7 @@ const Contact = () => {
                 setter={setLastName}
               />
             </div>
-            <div className="flex justify-around">
+            <div className="flex justify-around flex-col md:flex-row">
               <InputField
                 label="Email"
                 setShowError={setShowError}
@@ -121,7 +121,7 @@ const Contact = () => {
               />
             </div>
             <textarea
-              className="mx-8 my-10 w-11/12 rounded border border-lightPurple bg-white p-3 text-sm outline-0 placeholder:italic focus:border-darkPurple"
+              className="md:mx-8 mx-0 mb-10 mt-4 md:my-10 md:w-11/12 w-full rounded border border-lightPurple bg-white p-3 text-sm outline-0 placeholder:italic focus:border-darkPurple"
               cols={2}
               onChange={(e) => handleSetMessage(e.currentTarget.value)}
               placeholder="Add a message"

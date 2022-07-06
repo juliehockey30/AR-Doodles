@@ -12,6 +12,11 @@ module.exports = {
     fontFamily: {
       arima: ['Arima', 'cursive'],
     },
+    extend: {
+      spacing: {
+        unset: 'unset',
+      },
+    },
   },
   plugins: [],
 }

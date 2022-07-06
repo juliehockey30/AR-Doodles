@@ -8,7 +8,7 @@ const Answer = ({ text }) => {
 
 const FAQ = () => {
   return (
-    <div className="pb-16">
+    <div className="md:pb-16 pb-32">
       <p className="text-4xl text-darkPurple font-black text-center">
         Questions?
       </p>
