@@ -33,11 +33,7 @@ const NavBar = () => {
       <Link className="mx-12" to="/">
         <img className="w-4- h-24" src={LogoWhite} />
       </Link>
-      <NavLink
-        isSelected={currentPathName === '/faq'}
-        text="Puppy FAQ"
-        to="/faq"
-      />
+      <NavLink isSelected={currentPathName === '/faq'} text="FAQ" to="/faq" />
       <NavLink
         isSelected={currentPathName === '/contact'}
         text="Contact"

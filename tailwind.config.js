@@ -5,6 +5,8 @@ module.exports = {
     colors: {
       darkPurple: '#685494',
       lightPurple: '#baa5e1',
+      transparent: 'transparent',
+      warningRed: '#fc1557',
       white: '#ffffff',
     },
     fontFamily: {

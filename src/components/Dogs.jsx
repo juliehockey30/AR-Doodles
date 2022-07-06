@@ -9,7 +9,9 @@ const Dogs = () => {
       </p>
       <div className="flex w-full mt-12">
         <div className="w-1/2 text-center">
-          <p className="text-xl text-lightPurple font-black">Mom</p>
+          <p className="text-xl text-lightPurple font-black">
+            Mom - Goldendoodle
+          </p>
           <p className="text-3xl text-darkPurple font-black">LULU</p>
           <div className="flex items-center justify-center">
             <img className="mt-8 mr-2 max-h-96" src={Lulu1} />
@@ -17,7 +19,9 @@ const Dogs = () => {
           </div>
         </div>
         <div className="w-1/2 text-center">
-          <p className="text-xl text-lightPurple font-black">Dad</p>
+          <p className="text-xl text-lightPurple font-black">
+            Dad - Labradoodle
+          </p>
           <p className="text-3xl text-darkPurple font-black">LUMI</p>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Home = () => {
       <h1 className="text-4xl text-darkPurple font-black">
         Doodle Puppy Breeder
       </h1>
-      <h3 className="text-2xl text-darkPurple font-black">Denver, CO</h3>
+      <h3 className="text-2xl text-darkPurple font-black">Aurora, CO</h3>
       <img className="max-w-[50rem] mt-8" src={Doodles} />
     </div>
   )
