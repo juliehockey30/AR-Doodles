@@ -43,7 +43,7 @@ const NavBar = () => {
             <NavLink
               isSelected={currentPathName === '/puppies'}
               onClick={() => setShowHamburgerMenu(false)}
-              text="Our Puppies"
+              text="Puppies"
               to="/puppies"
             />
             <NavLink

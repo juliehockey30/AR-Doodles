@@ -3,11 +3,17 @@ import Doodles from '../assets/LabAndGolden.jpg'
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center pb-20 md:pb-0">
+    <div className="flex flex-col items-center pb-40 md:pb-0">
       <h1 className="text-4xl text-darkPurple font-black">
         Doodle Puppy Breeder
       </h1>
       <h3 className="text-2xl text-darkPurple font-black">Aurora, CO</h3>
+      <p className="text-xl text-lightPurple mt-8">
+        F1b Standard Golden Doodle Puppies
+      </p>
+      <p className="text-xl text-lightPurple">
+        75% poodle, 25% golden retriever
+      </p>
       <div className="md:hidden contents">
         <p className="text-2xl text-darkPurple font-black text-center mt-12">
           Contact us today if you are interested in adopting one of our puppies!

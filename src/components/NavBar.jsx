@@ -27,7 +27,7 @@ const NavBar = () => {
       />
       <NavLink
         isSelected={currentPathName === '/puppies'}
-        text="Our Puppies"
+        text="Puppies"
         to="/puppies"
       />
       <Link className="mx-12" to="/">

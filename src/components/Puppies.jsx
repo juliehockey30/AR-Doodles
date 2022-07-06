@@ -25,7 +25,7 @@ const Puppies = () => {
         CONTACT US
       </Link>
       <p className="text-4xl text-darkPurple font-black text-center mt-16">
-        Our last litter born on June 15th, 2021
+        The last litter at 5 weeks old, born on June 15th, 2021
       </p>
       <div className="mx-8 mt-0 mb-12 flex flex-wrap justify-center">
         {listOfImages.map((image, index) => (
