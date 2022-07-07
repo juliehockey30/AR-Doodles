@@ -23,7 +23,7 @@ const FAQ = () => {
         <Question text="How much does a puppy cost?" />
         <Answer text="The puppies cost $1500 and to reserve ahead of time, you must put down a $500 deposit. The deposit is only refundable if there are not enough puppies in the litter for everyone with a reservation. Puppies are adopted on a first come first serve basis. Unfortunately we cannot refund your deposit if there are still puppies available but the specific color or gender you would like is not." />
         <Question text="How do I pay?" />
-        <Answer text="We accept Venmo, Zelle, and PayPal" />
+        <Answer text="We accept Venmo, Zelle, and PayPal." />
         <Question text="When can I pick up my puppy?" />
         <Answer text="The puppies will be ready to be picked up once they are 8 weeks old and after they have received their first set of shots." />
       </div>

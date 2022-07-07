@@ -21,7 +21,7 @@ const Home = () => {
         owner of Lumi. They are 5 months a part in age and from different
         breeders, but have basically grown up together.
       </p>
-      <p className="md:text-2xl text-lg p-4 text-darkPurple font-black mt-4 md:px-20 text-center">
+      <p className="md:text-2xl text-lg p-4 text-darkPurple font-black md:mt-4 md:px-20 text-center">
         We are not a breeder, we are a local family from Colorado who loves
         their dogs. We absolutely loved connecting our well loved puppies from
         the last litter with wonderful families and are excited to do it again.

@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import GrownUp1 from '../assets/GrownUp1.jpeg'
+import GrownUp2 from '../assets/GrownUp2.jpeg'
 
 const Puppies = () => {
   const importAll = (r) => {
@@ -29,8 +31,15 @@ const Puppies = () => {
       </p>
       <div className="mx-8 mt-0 mb-12 flex flex-wrap justify-center">
         {listOfImages.map((image, index) => (
-          <img className="max-h-96 m-2" key={index} src={image}></img>
+          <img className="max-h-96 m-2" key={index} src={image} />
         ))}
+      </div>
+      <p className="text-4xl text-darkPurple font-black text-center mt-16">
+        2 pups from the last litter all grown up.
+      </p>
+      <div className="mx-8 mt-0 mb-12 flex flex-wrap justify-center">
+        <img className="max-h-96 m-2" src={GrownUp1} />
+        <img className="max-h-96 m-2" src={GrownUp2} />
       </div>
     </div>
   )
