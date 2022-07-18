@@ -12,9 +12,9 @@ const Puppies = () => {
   )
 
   return (
-    <div className="pb-16 flex flex-col items-center">
+    <div className="pb-32 flex flex-col items-center">
       <p className="text-4xl text-darkPurple font-black text-center">
-        The next litter will be born between July 16 - July 23
+        The newest litter was born on July 17, 2022!
       </p>
       <p className="text-2xl text-darkPurple font-black text-center">
         Contact us today if you are interested in adopting a pup from this

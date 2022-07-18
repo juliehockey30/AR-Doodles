@@ -14,7 +14,7 @@ const App = () => {
       <NavBar />
       <NavBarMobile />
       <Pupdate />
-      <div className="md:pt-56 pt-36">
+      <div className="md:pt-64 pt-36">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/puppies" element={<Puppies />} />
